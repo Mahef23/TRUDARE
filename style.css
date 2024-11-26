@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    background-color: rgb(231, 135, 135);
+}
+#titre{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    text-align: center;
+    font-size: 100px ;
+    margin-bottom:0;
+    padding: 0;
+}
+.lalao{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.lalao #play{
+    /*border: 5px solid black;*/
+    padding:50px 200px 50px 200px;
+    font-size: 100px;
+    background-color: coral;   
+    border-radius: 50px;
+}
+ .lalao #play:hover{
+    background-color: rgb(255,107, 50);
+ }
+.choix{
+    margin: 0;
+    display: none;
+    justify-content: space-evenly;   
+}
+.choix p{
+    border-radius: 50px;
+    font-size: 80px;
+    padding: 50px;
+    background-color: rgb(212, 87, 87);
+}
+.choix p:hover{
+    background-color: rgb(212, 67, 77);
+}
+.Joueur button{
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: blueviolet;
+    text-decoration: none;
+    justify-content: center;
+}
