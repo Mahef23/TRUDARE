@@ -6,7 +6,7 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
     position: relative;
     text-align: center;
-    font-size: 100px ;
+    font-size: 75px ;
     margin-bottom:0;
     padding: 0;
 }
@@ -17,10 +17,11 @@ body{
 }
 .lalao #play{
     /*border: 5px solid black;*/
-    padding:50px 200px 50px 200px;
-    font-size: 100px;
-    background-color: coral;   
-    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    font-size: 25px;
+   background-color: coral; 
+    border-radius: 61%;
 }
  .lalao #play:hover{
     background-color: rgb(255,107, 50);
@@ -39,11 +40,31 @@ body{
 .choix p:hover{
     background-color: rgb(212, 67, 77);
 }
+.choix p:active{
+    background-color: rgb(212, 57, 67);
+}
+.Joueur{
+    align-items: center;
+    text-align: center;
+    font-size: 100px;
+    margin-top: -100px;
+}
 .Joueur button{
-    font-size: 25px;
-    padding: 5px;
+    margin-top:-100px;
+    padding: 25px;
     border-radius: 25px;
-    background-color: blueviolet;
-    text-decoration: none;
-    justify-content: center;
+    font-size: 50px;
+}
+.Joueur p{
+    margin-bottom: 0;
+}
+.Joueur #textes{
+    margin-top: -0px;
+    font-size: 50px;
+}
+.Joueur #boutonTD{
+    background-color: brown;
+}
+.Joueur .rejoue{
+    background-color: bisque;
 }
