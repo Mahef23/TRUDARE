@@ -14,7 +14,7 @@ play.addEventListener('click',function(e){
     joueur.appendChild(trudare)
     trudare.classList.add('truedare')
     let act_image=document.createElement('img')
-        act_image.src='/down-modified.png'
+        act_image.src='./down-modified.png'
         act_image.style.height='50px'
         trudare.appendChild(act_image)
 
@@ -40,7 +40,7 @@ play.addEventListener('click',function(e){
         rejoue.classList.add('rejoue')
         joueur.appendChild(rejoue)
        let act_image2=document.createElement('img')
-        act_image2.src='/left-modified.png'
+        act_image2.src='./left-modified.png'
         act_image2.style.height='50px'
         rejoue.appendChild(act_image2)
         rejoue.addEventListener('click',function(e){
